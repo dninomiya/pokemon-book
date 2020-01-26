@@ -1,6 +1,8 @@
 import { POKEMONS } from './../modles/pokemons';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ChartDataSets, ChartType, RadialChartOptions } from 'chart.js';
+import { Label } from 'ng2-charts';
 
 @Component({
   selector: 'app-pokemon-detail',
